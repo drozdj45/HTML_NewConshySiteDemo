@@ -1,0 +1,276 @@
+﻿/*
+   Conshohocken Fire Co Styles Sheet
+   Author: Jonathan Drozd
+   Date:   4/24/2014
+
+   Filename:         fileStyle.css
+   Supporting Files: main.htm, history.htm, contactUs.htm, apparatus.htm
+*/
+
+
+/* 	---	Header Styles --- */
+
+header {
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	border-bottom: 3px solid #000000;
+}
+
+#headTitle{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cfc2 {
+	font-size: 50px;
+}
+#serving {
+	font-size: 20px;
+}
+
+
+
+
+/*	---	Navigation Styles --- */
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.8em;
+}
+
+nav ul li {
+	float: left;
+	width: 19.4%;
+	height: 40px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	background-color:#990000;
+	
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 0px 4px 5px 0px;
+	text-decoration:none;
+}
+	
+	/* unvisited link */
+a:link {
+	color: #ffffff; 
+	text-decoration:none;
+}    
+
+	/* visited link */
+a:visited {
+	color: #ffffff; 
+	text-decoration:none;
+}  
+
+	/* mouse over link */
+a:hover {
+	color:#ffff00; 
+	text-decoration:none;
+}  
+
+	/* Current page highlight */
+#current{
+	background-image: url('blackplate.jpg');	
+}
+
+#current a{
+	color:#ff0000;
+	text-decoration: underline;
+}
+
+
+
+
+/*	---	Body Styles	---	*/
+
+body {
+	background-color: black;
+	color: red;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+caption {
+	background-color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+/* --- Main Page Section Styles --- */
+
+section {
+	float: left;
+}
+
+	/* Call Volume Table */
+#cv {
+	color: #ffffff;
+}
+
+#runs {
+	border: 10px inset white;
+}
+
+
+
+
+/* --- Main Page Aside Style --- */
+
+aside {
+	width: 75%;
+	float: left;
+	padding: 10px;
+}
+
+#news {
+	width: 100%;	
+}
+
+#calls {
+	width: 100%;
+}
+
+
+
+
+/*	---	History Page Styles	---	*/
+
+#history {
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	width: 50%;
+	height: 550px;
+	overflow: scroll;
+	margin-left: auto ;
+	margin-right: auto ;
+	
+}
+
+#history h1 {
+
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/*	---	Apparatus Page Styles	---	*/
+
+#currentApp {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#currentApp ul{
+	padding: 0px;
+	margin: auto;
+	list-style-type: none;
+	text-align: center;
+	font-size: 25px;
+}
+#currentApp h1{
+	font-size: 40px;
+	color: white;
+}
+
+#rApp{
+	width: 50%;
+	float: right;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#rApp h1{
+	font-size: 40px;
+	color: white;
+}
+#rApp ul{
+	padding: 0px;
+	margin: auto;
+	list-style-type: none;
+	font-size: 25px;
+}
+
+
+
+
+/*	---	Contact Us Page Styles	---	*/
+
+#survey {
+	width: 40%;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+	/* Label styles*/
+label {
+	clear: left;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+	/* Input control styles*/
+input{
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+	
+}
+
+select {
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+#twitter {
+	text-align: center;
+}
+
+	/* Form Button Style*/
+#buttons {
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+	display: inline;
+	float: none;
+	height: 40px;
+	width: 200px;
+}
+
+
+
+
+/*	---	Footer Styles	---	*/
+
+footer {
+	width: 100%;
+	float: right;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	border: 1px solid white;
+	background-color: #990000;
+	text-align:center;
+	color: white;
+}
+
